@@ -1,6 +1,3 @@
---- Generates MoonSniff traffic, i.e. packets contain an identifier and a fixed bit pattern
---- Live mode and MSCAP mode require this type of traffic
-
 local lm     = require "libmoon"
 local device = require "device"
 local memory = require "memory"
